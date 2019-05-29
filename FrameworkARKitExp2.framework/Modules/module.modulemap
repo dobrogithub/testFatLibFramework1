@@ -1,0 +1,11 @@
+framework module FrameworkARKitExp2 {
+  umbrella header "FrameworkARKitExp2.h"
+
+  export *
+  module * { export * }
+}
+
+module FrameworkARKitExp2.Swift {
+    header "FrameworkARKitExp2-Swift.h"
+    requires objc
+}
